@@ -344,4 +344,4 @@ healthchecksdb
 MigrationBackup/
 
 # Activity Explanation File
-*.pdf
+# *.pdf
