@@ -39,6 +39,7 @@ void main() {
 			break;
 		case (1) :
 			numeroAInsertar = 50 + rand() % 51;
+			cout << "Insertando " << numeroAInsertar << "\n";
 			lista.insertar(numeroAInsertar);
 			cout << "Numero " << numeroAInsertar << " insertado correctamente\n";
 			break;

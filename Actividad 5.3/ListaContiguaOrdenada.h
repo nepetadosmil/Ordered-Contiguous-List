@@ -1,12 +1,14 @@
 #pragma once
+
 #include "ListaContigua.h"
+
+#include <assert.h>
 
 // Lista que siempre se mantiene ordenada de menor a mayor
 class ListaContiguaOrdenada : public ListaContigua
 {
 
 public:
-
 	// Inserta un elemento en la posicion adecuada para que la lista siga ordenada
 	// Parámetro: el nuevo elemento a insertar
 	// Complejidad temporal: O(n) -O(lgn) para buscar la posicion adecuada y O(n) para insertar el elemento ahí-
@@ -43,6 +45,6 @@ private:
 	// - posicionFinSublista pertenece a [0,n-1]
 	// - posicionInicioSublista <= posicionFinSublista
 	// Complejidad temporal y espacial: O(lgm), tal como calculamos en la actividad 3.5 
-	int buscarPosicion(int valorABuscar, int posicionInicioSublista, int posicionFinSublista);
+	int buscarPosicion(int valorABuscar, int posicionInicioSublista, int posicionFin);
 };
 
