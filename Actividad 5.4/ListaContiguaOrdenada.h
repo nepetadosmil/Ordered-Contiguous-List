@@ -3,6 +3,7 @@
 #include "ListaContigua.h"
 
 #include <assert.h>
+#include <iostream>
 
 // Lista que siempre se mantiene ordenada de menor a mayor
 class ListaContiguaOrdenada : public ListaContigua
